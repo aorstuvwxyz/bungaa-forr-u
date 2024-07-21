@@ -592,9 +592,9 @@ body {
   width: 30vmin;
   height: 50vmin;
   border-top-left-radius: 100%;
-  border-left: 2vmin solid #00FF00;
+  border-left: 2vmin solid #90EE90;
   background-image: linear-gradient(to bottom, transparent, var(--dark-color) 60%);
-  -webkit-mask-image: linear-gradient(to top, transparent 30%, #00FF00 60%);
+  -webkit-mask-image: linear-gradient(to top, transparent 30%, #90EE90 60%);
 }
 .flower__g-right--1 {
   -webkit-animation: flower-g-right-ans 2.5s linear infinite;
