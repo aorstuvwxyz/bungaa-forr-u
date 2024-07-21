@@ -154,7 +154,7 @@ body {
   transform: translate(-50%, -100%);
   width: 8vmin;
   height: 8vmin;
-  background-color: #FF0000;
+  background-color: #FF1493;
   filter: blur(10vmin);
 }
 .flower__leaf {
@@ -164,8 +164,8 @@ body {
   width: 8vmin;
   height: 11vmin;
   border-radius: 51% 49% 47% 53%/44% 45% 55% 69%;
-  background-color: #FF0000;
-  background-image: linear-gradient(to top, #FF0000, #FF0000);
+  background-color: #FF1493;
+  background-image: linear-gradient(to top, #FF1493, #FFB6C1);
   transform-origin: bottom center;
   opacity: 0.9;
   box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.5);
@@ -185,7 +185,7 @@ body {
   transform-origin: bottom left;
   border-radius: 4vmin 10vmin 4vmin 4vmin;
   transform: translate(0%, 18%) rotateX(70deg) rotate(-43deg);
-  background-image: linear-gradient(to top, #FF0000, #FF0000);
+  background-image: linear-gradient(to top, #FF1493, #FFB6C1);
   z-index: 1;
   opacity: 0.8;
 }
@@ -227,7 +227,7 @@ body {
   height: var(--h);
   border-top-right-radius: var(--h);
   border-bottom-left-radius: var(--h);
-  background-image: linear-gradient(to top, rgba(20, 117, 122, 0.4), #00FF00);
+  background-image: linear-gradient(to top, rgba(20, 117, 122, 0.4), #B0D12A);
 }
 .flower__line__leaf--1 {
   transform: rotate(70deg) rotateY(30deg);
@@ -314,7 +314,7 @@ body {
           animation-delay: 3.5s;
 }
 .flower__grass {
-  --c: #00FF00;
+  --c: #80B918;
   --line-w: 1.5vmin;
   position: absolute;
   bottom: 12vmin;
@@ -780,9 +780,9 @@ body {
   height: 10vmin;
   border-radius: 100% 0% 0% 100%/100% 100% 0% 0%;
   box-shadow: inset 0 2px 1vmin hsla(184deg, 97%, 58%, 0.2);
-  background-image: linear-gradient(to bottom left, transparent, var(--dark-color)), linear-gradient(to bottom right, #00FF00 50%, transparent 50%, transparent);
-  -webkit-mask-image: linear-gradient(to bottom right, #00FF00 50%, transparent 50%, transparent);
-  mask-image: linear-gradient(to bottom right, #00FF00 50%, transparent 50%, transparent);
+  background-image: linear-gradient(to bottom left, transparent, var(--dark-color)), linear-gradient(to bottom right, #55A630 50%, transparent 50%, transparent);
+  -webkit-mask-image: linear-gradient(to bottom right, #55A630 50%, transparent 50%, transparent);
+  mask-image: linear-gradient(to bottom right, #55A630 50%, transparent 50%, transparent);
 }
 .flower__g-fr {
   position: absolute;
@@ -826,8 +826,8 @@ body {
   height: 10vmin;
   border-radius: 100% 0% 0% 100%/100% 100% 0% 0%;
   box-shadow: inset 0 2px 1vmin hsla(184deg, 97%, 58%, 0.2);
-  background-image: linear-gradient(to bottom left, transparent, var(--dark-color) 98%), linear-gradient(to bottom right, #00FF00 45%, transparent 50%, transparent);
-  -webkit-mask-image: linear-gradient(135deg, #00FF00 40%, transparent 50%, transparent);
+  background-image: linear-gradient(to bottom left, transparent, var(--dark-color) 98%), linear-gradient(to bottom right, #55A630 45%, transparent 50%, transparent);
+  -webkit-mask-image: linear-gradient(135deg, #55A630 40%, transparent 50%, transparent);
 }
 .flower__g-fr__leaf--1 {
   left: 20vmin;
